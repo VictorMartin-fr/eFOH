@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Viewer</title>
+    <meta charset="UTF-8" />
+    <link href="style/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="header">
+      <img class="logo" src="img/logo-blanc.png">
+      <h1 class="text-header">VI-Agency virtual FOH</h1>
+    </div>
+
+    <header class="content">
+      <video playsinline autoplay muted controls></video>
+    </header>
+
+    <aside class="sidebar">
+      <h1 class="plateau-title">Plateau</h1>
+      <hr>
+      <h3 class="plateau">VI-Agency Test</h3>
+      <h1 class="config">Configuration</h1>
+      <hr>
+      <button id="enable-audio" class="option">Enable audio</button>
+    </aside>
+
+    <footer class="footer">
+      <p class="copyright">Copyright VI-Agency, 2021</p>
+    </footer>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script/watch.js"></script>
+  </body>
+</html>
