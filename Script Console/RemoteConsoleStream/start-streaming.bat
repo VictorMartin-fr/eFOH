@@ -1,0 +1,1 @@
+start /d "D:\obs-studio\bin\64bit" obs64.exe --scene Regie_1_Cam --disable-updater
